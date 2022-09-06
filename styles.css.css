@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   overflow: hidden;
+   max-width: 90rem;
+}
+
+
+/* <........nav bar......> */
+nav{
+    display: flex;
+    margin-left: 10px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+.nav-items{
+    display: flex;
+    margin-left: 200px;
+}
+.nav-item{
+    
+    margin-right: 50px;
+}
+
+nav h5{
+    font-size: 15px;
+    color: rgb(1, 1, 94);
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.signin-btn{
+    float: right;
+    margin-left: 300px;
+    padding: 15px 30px;
+    max-height: 50px;
+    text-align: center;
+   border: none;
+    background-image: linear-gradient(to right ,#b22bc1 50%,#a758c8 90%);
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+
+}
+.intro-section{
+  
+    text-align: justify;
+    margin-top: 200px;
+    margin-left: 50px;
+ 
+   
+}
+h1{
+    font-size: 70px;
+}
+h4{
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+    color: light rgba(19, 17, 17, 0.781);
+    width: 35rem;
+    padding-bottom: 15px;
+}
+.learn-more-btn{
+    background-image: linear-gradient(to right ,#b22bc1 50%,#a758c8 90%);
+    border-radius: 50px;
+    border: none;
+    padding:15px 35px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+.imgs-div{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    z-index: -1;
+display: block;
+    max-width: 100%;
+    max-height: 30%;
+    
+}
+
+.ring{
+    position: relative;
+    width: 1000px ;
+    height: 100%vph;
+    margin-top: -100px;
+    margin-right: 50px;
+    background-image: url(../images/backcover.svg);
+   background-size: 100% ;
+   background-repeat: no-repeat;
+   background-position:  top right;
+   
+}
+
+.imgs-div img:last-child{
+
+    height: 100vh;
+   
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:790px) {
+
+    nav{
+        max-width: 400px;
+        overflow-x: auto;
+      
+    }
+
+    .nav-items{
+        margin-left: 40px;
+        justify-content: center;
+    }
+
+    .intro-section1{
+   
+    }
+.intro-section1{
+    max-width: 100%;
+    margin-top: 100px;
+  
+    justify-content: center;
+   
+   
+}
+h4{
+    max-width: 100%;
+}
+
+.intro-section h1{
+    font-size: 60px;
+   
+}
+.intro-section h4{
+
+    font-size: 20px;
+    color: rgba(9, 9, 9, 0.772);
+}
+    .imgs-div img:nth-child(3){
+       opacity: 0.5;
+       z-index: -6;
+       
+    }
+
+   
+    .signin-btn{
+        margin: 0;
+    }
+
+    .ring{
+        top: 100px;
+        width: 650px;
+      height: 400px;
+    
+   
+    }
+
+    .vector-img{
+        display: none;
+    }
+}
